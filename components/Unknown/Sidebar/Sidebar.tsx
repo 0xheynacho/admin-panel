@@ -27,7 +27,7 @@ import { alpha, useTheme } from "@material-ui/system";
 const sections = [
   { icon: <DashboardIcon />, name: "Dashboard", href: "/" },
   { icon: <UserIcon />, name: "Users", href: "/users" },
-  { icon: <ProductIcon />, name: "Products", href: "/products" },
+  { icon: <ProductIcon />, name: "Proyectos", href: "/products" },
   { icon: <BlogIcon />, name: "Blog", href: "/blog" },
   { icon: <NotFoundIcon />, name: "Not Found", href: "/404" },
 ];
