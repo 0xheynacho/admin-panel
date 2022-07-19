@@ -8,13 +8,13 @@ import ThemeConfig from "../common/theme";
 import ContextProvider from "../components/Unknown/Context";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyC6uZ6mD3qiXykSjDZwlcAtU_iPKwTQZq4",
-  authDomain: "social-network-32841.firebaseapp.com",
-  projectId: "social-network-32841",
-  storageBucket: "social-network-32841.appspot.com",
-  messagingSenderId: "89759638462",
-  appId: "1:89759638462:web:e30d8a3c278ca7f173cfef",
-  measurementId: "G-99TVNM44JQ",
+  apiKey: "AIzaSyAbbl30V0tkG9FxqBSHl6KFUzCmvvQ6dWE",
+  authDomain: "presupuesto-d02a9.firebaseapp.com",
+  projectId: "presupuesto-d02a9",
+  storageBucket: "presupuesto-d02a9.appspot.com",
+  messagingSenderId: "749510472611",
+  appId: "1:749510472611:web:db915fd345b036a3262016",
+  measurementId: "G-3HTZ93VCW2"
 };
 
 type NextPage = BasicNextPage & {
