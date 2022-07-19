@@ -29,37 +29,7 @@ export default function Dashboard() {
         <title>Dashboard</title>
       </Head>
 
-      <Grid container spacing={3}>
-        {dashboardData.infoCards.map((data, i) => (
-          <Grid key={i} item xs={12} sm={6} md={3}>
-            <InfoCard {...data} />
-          </Grid>
-        ))}
-
-        <Grid item xs={12} md={6} lg={8}>
-          <WebsiteVisits {...dashboardData.websiteVisits} />
-        </Grid>
-
-        <Grid item xs={12} md={6} lg={4}>
-          <CurrentSubject {...dashboardData.currentSubject} />
-        </Grid>
-
-        <Grid item xs={12} md={6} lg={8}>
-          <ConversionRates {...dashboardData.conversionRates} />
-        </Grid>
-
-        <Grid item xs={12} md={6} lg={4}>
-          <CurrentVisits {...dashboardData.currentVisits} />
-        </Grid>
-
-        <Grid item xs={12} md={6} lg={8}>
-          <NewsUpdate {...dashboardData.newsUpdate} />
-        </Grid>
-
-        <Grid item xs={12} md={6} lg={4}>
-          <OrderTimeline {...dashboardData.orderTime} />
-        </Grid>
-      </Grid>
+      
     </Box>
   );
 }
