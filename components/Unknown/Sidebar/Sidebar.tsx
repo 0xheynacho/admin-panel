@@ -25,11 +25,10 @@ import firebase from "firebase";
 import { alpha, useTheme } from "@material-ui/system";
 
 const sections = [
-  { icon: <DashboardIcon />, name: "Dashboard", href: "/" },
- { icon: <UserIcon />, name: "Users", href: "/users" },
- { icon: <ProductIcon />, name: "Proyectos", href: "/products" },
-  { icon: <BlogIcon />, name: "Blog", href: "/blogs" },
-  { icon: <NotFoundIcon />, name: "Not Found", href: "/404" },
+  { icon: <DashboardIcon />, name: "inicio", href: "/" },
+ { icon: <ProductIcon />, name: "Presupuestos", href: "/products" },
+  { icon: <BlogIcon />, name: "Blog", href: "/videos" },
+  { icon: <BlogIcon />, name: "Blog", href: "/blog" },
 ];
 
 interface SidebarProps {
