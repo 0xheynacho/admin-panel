@@ -27,8 +27,8 @@ import { alpha, useTheme } from "@material-ui/system";
 const sections = [
   { icon: <DashboardIcon />, name: "inicio", href: "/" },
  { icon: <ProductIcon />, name: "Presupuestos", href: "/products" },
-  { icon: <BlogIcon />, name: "Blog", href: "/videos" },
-  { icon: <BlogIcon />, name: "Blog", href: "/blog" },
+  { icon: <BlogIcon />, name: "Blogs", href: "/blog" },
+  { icon: <BlogIcon />, name: "videos", href: "/blog" },
 ];
 
 interface SidebarProps {
