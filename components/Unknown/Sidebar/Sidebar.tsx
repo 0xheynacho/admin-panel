@@ -24,13 +24,13 @@ import NotFoundIcon from "./NotFound.svg";
 import firebase from "firebase";
 import { alpha, useTheme } from "@material-ui/system";
 
-const sections = [
-  { icon: <DashboardIcon />, name: "Dashboard", href: "/" },
-  { icon: <UserIcon />, name: "Users", href: "/users" },
-  { icon: <ProductIcon />, name: "Proyectos", href: "/products" },
-  { icon: <BlogIcon />, name: "Blog", href: "/blog" },
-  { icon: <NotFoundIcon />, name: "Not Found", href: "/404" },
-];
+// const sections = [
+  // { icon: <DashboardIcon />, name: "Dashboard", href: "/" },
+  //{ icon: <UserIcon />, name: "Users", href: "/users" },
+  //{ icon: <ProductIcon />, name: "Proyectos", href: "/products" },
+  //{ icon: <BlogIcon />, name: "Blog", href: "/blog" },
+  //{ icon: <NotFoundIcon />, name: "Not Found", href: "/404" },
+//];
 
 interface SidebarProps {
   isOpen: boolean;
